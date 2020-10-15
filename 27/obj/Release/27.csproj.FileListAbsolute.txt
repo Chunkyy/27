@@ -1,0 +1,9 @@
+E:\Code\Windows application\27\27\bin\Release\27.exe.config
+E:\Code\Windows application\27\27\bin\Release\27.exe
+E:\Code\Windows application\27\27\bin\Release\27.pdb
+E:\Code\Windows application\27\27\obj\Release\_27.Bobs_27.resources
+E:\Code\Windows application\27\27\obj\Release\_27.Properties.Resources.resources
+E:\Code\Windows application\27\27\obj\Release\27.csproj.GenerateResource.cache
+E:\Code\Windows application\27\27\obj\Release\27.csproj.CoreCompileInputs.cache
+E:\Code\Windows application\27\27\obj\Release\27.exe
+E:\Code\Windows application\27\27\obj\Release\27.pdb
