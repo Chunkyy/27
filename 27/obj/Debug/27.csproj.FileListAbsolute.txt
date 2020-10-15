@@ -1,0 +1,10 @@
+E:\Code\Windows application\27\27\bin\Debug\27.exe.config
+E:\Code\Windows application\27\27\bin\Debug\27.exe
+E:\Code\Windows application\27\27\bin\Debug\27.pdb
+E:\Code\Windows application\27\27\obj\Debug\27.csprojAssemblyReference.cache
+E:\Code\Windows application\27\27\obj\Debug\_27.Properties.Resources.resources
+E:\Code\Windows application\27\27\obj\Debug\27.csproj.GenerateResource.cache
+E:\Code\Windows application\27\27\obj\Debug\27.csproj.CoreCompileInputs.cache
+E:\Code\Windows application\27\27\obj\Debug\27.exe
+E:\Code\Windows application\27\27\obj\Debug\27.pdb
+E:\Code\Windows application\27\27\obj\Debug\_27.Bobs_27.resources
