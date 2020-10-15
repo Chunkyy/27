@@ -12,41 +12,38 @@ namespace _27
 {
     public partial class Bobs_27 : Form
     {
-        int d = 1;
-        int sv = 27;
-        int calc;
+        int d;
+        int sv;
         int dartValue;
 
         public Bobs_27()
         {
             InitializeComponent();
+            newGame();
         }
 
         private void oneBtn_Click(object sender, EventArgs e)
         {
             dartValue = 1;
-            calculate();
+            calculateScore();
         }
 
         private void twoBtn_Click(object sender, EventArgs e)
         {
             dartValue = 2;
-            calculate();
+            calculateScore();
         }
 
         private void threeBtn_Click(object sender, EventArgs e)
         {
             dartValue = 3;
-            calculate();
+            calculateScore();
         }
 
         private void missBtn_Click(object sender, EventArgs e)
         {
-            calc = sv - (d * 2);
-            sv = calc;
-            scoreValue.Text = sv.ToString();
-
-            updateScore();
+            dartValue = 0;
+            calculateScore();
         }
 
         public void incrementDouble()
@@ -100,12 +97,17 @@ namespace _27
             }
         }
 
-        public void calculate()
-        {            
-            calc = (d * 2) * dartValue + sv;
-            sv = calc;
+        public void calculateScore()
+        {
+            if (dartValue == 0)
+            {
+                sv = sv - (d * 2);
+            }                
+            else
+            {
+                sv = (d * 2) * dartValue + sv;
+            }
             scoreValue.Text = sv.ToString();
-            
             updateScore();
         }
 
